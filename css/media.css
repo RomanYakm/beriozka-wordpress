@@ -1,0 +1,126 @@
+@media (min-width: 320px) and (max-width: 1024px) {
+  .active {
+    padding-bottom: 10px;
+  }
+  .popular__rooms__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 15px;
+  }
+  .photogallery {
+    padding: 0;
+  }
+  .photogallery__photos {
+    padding: 70px 15px 15px;
+    align-items: center;
+    gap: 10px;
+  }
+  .photo__container {
+    width: fit-content;
+    height: fit-content;
+  }
+  .about-us {
+    padding: 0 15px;
+  }
+  .about-us__title {
+    padding-top: 75px;
+  }
+  .item__info {
+    text-align: center;
+  }
+  .content__form {
+    margin: 10px;
+  }
+  .content__info {
+    padding: 15px 0;
+  }
+  .popular__rooms {
+    padding: 0;
+  }
+  .header__content {
+    padding: 0 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info__second-title {
+    padding-top: 15px;
+  }
+  .header__top {
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .header__logo {
+    padding: 5px;
+  }
+  .header__order-call {
+    padding: 15px 0;
+    align-items: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .popular__rooms__items {
+    grid-template-columns: 1fr;
+  }
+  .about-us__items {
+    display: block;
+  }
+  .nav__links li {
+    padding-right: 5px;
+  }
+  .photo__container {
+    width: fit-content;
+    height: fit-content;
+  }
+  .item {
+    padding-bottom: 15px;
+  }
+  .header__top {
+    padding: 0 15px;
+  }
+  .nav__links li a {
+    font-size: 8px;
+  }
+  .header__order-call p {
+    font-size: 15px;
+  }
+  .content__form {
+    margin: 0;
+  }
+  .info__main-title {
+    font-size: 25px;
+  }
+  .info__second-title {
+    font-size: 15px;
+  }
+  .about-us__info {
+    padding-top: 30px;
+  }
+  .content__form {
+    margin: 5px 0;
+    padding: 5px;
+  }
+  .form__textarea {
+    height: 5em;
+  }
+  .photogallery__photos {
+    padding: 40px 10px 0;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1919px) {
+  .popular__rooms {
+    padding: 0 120px;
+  }
+  .photogallery {
+    padding: 0 120px;
+  }
+  .about-us {
+    padding: 0 120px;
+  }
+  .header__top {
+    padding: 10px 120px;
+  }
+}

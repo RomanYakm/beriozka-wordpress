@@ -1,0 +1,48 @@
+.about-us {
+  padding: 0 360px;
+}
+
+.about-us__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us__title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #37393e;
+  padding-bottom: 75px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 65px;
+  color: #4671d5;
+  font-weight: bold;
+  border: 3px solid #4671d5;
+  border-radius: 50%;
+  align-self: center;
+  padding: 2px;
+}
+
+.item__info {
+  color: #34363b;
+  padding-top: 25px;
+}
+
+.about-us__info {
+  padding-top: 65px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #34363b;
+}
