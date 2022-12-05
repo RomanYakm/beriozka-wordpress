@@ -21,8 +21,8 @@
 }
 
 .photo__container {
-  width: 380px;
-  height: 250px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .photogallery__photos--photo {

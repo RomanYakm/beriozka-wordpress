@@ -16,10 +16,6 @@
     align-items: center;
     gap: 10px;
   }
-  .photo__container {
-    width: fit-content;
-    height: fit-content;
-  }
   .about-us {
     padding: 0 15px;
   }
@@ -69,10 +65,6 @@
   .nav__links li {
     padding-right: 5px;
   }
-  .photo__container {
-    width: fit-content;
-    height: fit-content;
-  }
   .item {
     padding-bottom: 15px;
   }
@@ -111,16 +103,25 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1919px) {
+  .header__content {
+    padding: 0 120px;
+  }
   .popular__rooms {
     padding: 0 120px;
   }
+  .popular__rooms__items {
+    flex-wrap: wrap;
+  }
   .photogallery {
     padding: 0 120px;
+  }
+  .photogallery__photos {
+    gap: 15px;
   }
   .about-us {
     padding: 0 120px;
   }
   .header__top {
-    padding: 10px 120px;
+    padding: 10px 40px;
   }
 }
