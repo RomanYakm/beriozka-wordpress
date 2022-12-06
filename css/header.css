@@ -116,5 +116,11 @@
   height: 35px;
   background-color: #e7a300;
   cursor: pointer;
+  transition: background-color .3s, color .3s, border .3s;
 }
 
+.form__button:hover {
+  background-color: #ffffff;
+  color: #e7a300;
+  border: 1px solid #e7a300;
+}

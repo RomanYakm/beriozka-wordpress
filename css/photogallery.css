@@ -18,17 +18,31 @@
   box-sizing: content-box;
   align-self: center;
   cursor: pointer;
+  transition: background-color .3s, color .3s;
+}
+
+.photogallery__button:hover {
+  background-color: #4671d5;
+  color: #ffffff;
 }
 
 .photo__container {
   width: fit-content;
   height: fit-content;
+  overflow: hidden;
+}
+
+.photogallery__photos--photo:hover {
+  transform: scale(1.2);
 }
 
 .photogallery__photos--photo {
+  object-fit: cover;
+  object-position: center;
   cursor: pointer;
   width: 100%;
   height: 100%;
+  transition: transform .3s;
 }
 
 
